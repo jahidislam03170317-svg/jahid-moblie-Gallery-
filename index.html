@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Jahid Mobile Gallery</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>📱 Jahid Mobile Gallery</h1>
+
+<input
+type="text"
+id="search"
+placeholder="Search Cover...">
+
+</header>
+
+<div id="albums" class="category">
+
+<button onclick="openCategory('iphone')">🍎 All iPhone</button>
+
+<button onclick="openCategory('samsung')">📱 Samsung</button>
+
+<button onclick="openCategory('vivo')">💙 Vivo</button>
+
+<button onclick="openCategory('oppo')">🟢 Oppo</button>
+
+<button onclick="openCategory('other')">📦 Other</button>
+
+</div>
+
+<div id="gallery"></div>
+
+<div id="viewer" class="viewer">
+
+<span id="closeViewer">&times;</span>
+
+<img id="viewerImg">
+
+<p id="counter"></p>
+
+<div class="viewerButtons">
+
+<button id="prevBtn">⬅️</button>
+
+<a id="downloadBtn"download>⬇️</a>
+
+<button id="nextBtn">➡️</button>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
