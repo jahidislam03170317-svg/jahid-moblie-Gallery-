@@ -1,65 +1,67 @@
+
 const photos = [
 
 {
-  title: "Coffee Cartoon Cover",
-  image: "images/iphone16.jpg",
-  category: "iphone"
+  title:"Coffee Cartoon Cover",
+  image:"iphone16.jpg",
+  category:"iphone"
 },
 
 {
-  title: "Pink Heart Bow Cover",
-  image: "images/iphone15.jpg",
-  category: "iphone"
+  title:"Pink Heart Bow Cover",
+  image:"iphone15.jpg",
+  category:"iphone"
 },
 
 {
-  title: "Transparent Bear Frame Cover",
-  image: "images/iphone15max.jpg",
-  category: "iphone"
+  title:"Transparent Bear Frame Cover",
+  image:"iphone15max.jpg",
+  category:"iphone"
 },
 
 {
-  title: "Mickey & Stitch Cover",
-  image: "images/iphone16max.jpg",
-  category: "iphone"
-},
-{
-title:"Samsung S24 Ultra Cover",
-image:"images/s24.jpg",
-category:"samsung"
+  title:"Mickey & Stitch Cover",
+  image:"iphone16max.jpg",
+  category:"iphone"
 },
 
 {
-title:"Samsung A55 Cover",
-image:"images/a55.jpg",
-category:"samsung"
+  title:"Mickey Cover",
+  image:"s24.jpg",
+  category:"samsung"
 },
 
 {
-title:"Vivo V50 Cover",
-image:"images/v50.jpg",
-category:"vivo"
+  title:"Black Cover",
+  image:"a55.jpg",
+  category:"samsung"
 },
 
 {
-title:"Oppo Reno13 Cover",
-image:"images/reno13.jpg",
-category:"oppo"
+  title:"Vivo V50 Cover",
+  image:"v50.jpg",
+  category:"vivo"
 },
 
 {
-title:"20W Charger",
-image:"images/charger.jpg",
-category:"other"
+  title:"Oppo Reno13 Cover",
+  image:"reno13.jpg",
+  category:"oppo"
 },
 
 {
-title:"Type-C Cable",
-image:"images/typec.jpg",
-category:"other"
+  title:"20W Charger",
+  image:"charger.jpg",
+  category:"other"
+},
+
+{
+  title:"Type-C Cable",
+  image:"typec.jpg",
+  category:"other"
 }
-
 ];
+
 
 const albums=document.getElementById("albums");
 const gallery=document.getElementById("gallery");
