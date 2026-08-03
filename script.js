@@ -1,17 +1,28 @@
 const photos = [
 
 {
-title:"iPhone 16 Pro Max Cover",
-image:"images/iphone16.jpg",
-category:"iphone"
+  title: "Coffee Cartoon Cover",
+  image: "images/iphone16.jpg",
+  category: "iphone"
 },
 
 {
-title:"iPhone 15 Pro Max Cover",
-image:"images/iphone15.jpg",
-category:"iphone"
+  title: "Pink Heart Bow Cover",
+  image: "images/iphone15.jpg",
+  category: "iphone"
 },
 
+{
+  title: "Transparent Bear Frame Cover",
+  image: "images/iphone15max.jpg",
+  category: "iphone"
+},
+
+{
+  title: "Mickey & Stitch Cover",
+  image: "images/iphone16max.jpg",
+  category: "iphone"
+},
 {
 title:"Samsung S24 Ultra Cover",
 image:"images/s24.jpg",
