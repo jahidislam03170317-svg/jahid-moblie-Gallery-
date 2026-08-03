@@ -32,7 +32,7 @@ const photos = [
 },
 
 {
-  title:"Black Cover",
+  title:"Bear Cover",
   image:"a55.jpg",
   category:"samsung"
 },
